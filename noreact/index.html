@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Pharmacy online</title>
+
+    <!--Mon fichier CSS-->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.css"><!-- 
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous"> -->
+
+    <!--Font awesome-->
+    <link rel="stylesheet" href="css/fontawesome.css">
+   <!--  <script src="https://kit.fontawesome.com/dbf177daa5.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+    <script src="js/jquery-3.5.1.js"></script>
+    <script src="js/bootstrap.js"></script>
+    
+  </head>
+
+  <body>
+      <nav class="navbar navbar-expand-md navbar-light bg-mycolor">
+        <div class="brand">
+          <a href="index.html">Pharmacy<span style="color:#ff8000;">Online</span></a>
+        </div>
+        <button id="toggler" class="switch-menu navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Toggle navigation">
+             &#9776;
+        </button>
+        <div class="navbar-collapse collapse" id="menu" data-parent="#toggler">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="recherche.html">Recherche</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="panier.html">Panier</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="signin.html">Se connecter</a>
+              </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="grid-container">
+      <main class="main">
+        <div class="section-1">
+          <div class="sous-section-1">
+            <h2>Bienvenue sur PharmacyOnline</h2>
+            <p>Gagnez du temps en effectuant vos opérations en pharmacie à distance. <br> Tout commence par une recherche.</p>
+            <a href="recherche.html"><button>Lancez une recherche</button></a>
+          </div>
+        </div>
+        <div class="container-fluid section-2">
+          <h2>Comment ça marche?</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus et enim cursus, tempor eros id, faucibus velit. Aliquam gravida,
+            urna nec gravida tincidunt, nibh lectus elementum nulla, sit amet luctus dolor lacus sed orci. Ut non varius augue, ut cursus turpis
+          </p>
+          <div class="row">
+            <div class="col-md-3">
+              <div class="card">
+                <img src="img/rechercher.png" alt="image-pharmacie-1" class="card-image-top">
+                <div class="card-body">
+                  <h4 class="card-title">Rechercher</h4>
+                  <p class="card-text">
+                    Donec pellentesque sem libero, efficitur commodo leo venenatis vitae. Mauris ut sem bibendum purus malesuada interdum.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card">
+                <img src="img/choisir.png" alt="image-pharmacie-1" class="card-image-top">
+                <div class="card-body">
+                  <h4 class="card-title">Faire un choix</h4>
+                  <p class="card-text">
+                    Donec pellentesque sem libero, efficitur commodo leo venenatis vitae. Mauris ut sem bibendum purus malesuada interdum.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card">
+                <img src="img/payement.png" alt="image-pharmacie-1" class="card-image-top">
+                <div class="card-body">
+                  <h4 class="card-title">Payer ou réserver</h4>
+                  <p class="card-text">
+                    Donec pellentesque sem libero, efficitur commodo leo venenatis vitae. Mauris ut sem bibendum purus malesuada interdum.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card">
+                <img src="img/retrait.png" alt="image-pharmacie-1" class="card-image-top">
+                <div class="card-body">
+                  <h4 class="card-title">Retirer</h4>
+                  <p class="card-text">
+                    Donec pellentesque sem libero, efficitur commodo leo venenatis vitae. Mauris ut sem bibendum purus malesuada interdum.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container-fluid section-3">
+          <h2>Pourquoi nous faire confiance?</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus et enim cursus, tempor eros id, faucibus velit. Aliquam gravida,
+            urna nec gravida tincidunt, nibh lectus elementum nulla, sit amet luctus dolor lacus sed orci. Ut non varius augue, ut cursus turpis
+          </p>
+            <div class="row">
+              <div class="col-md-4">
+                <div class="d-flex flex-row">
+                  <i class="fas fa-thumbs-up fa-3x m-2"></i>
+                  <div class="d-flex flex-column">
+                    <h3 class="m-2">Qualité</h3>
+                    <p class="m-2">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus et enim cursus, tempor eros id,
+                       faucibus velit. Aliquam gravida, urna nec gravida tincidunt, nibh lectus elementum nulla, sit 
+                       amet luctus dolor lacus sed orci. Ut non varius augue, ut cursus turpis.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-4">
+                <div class="d-flex flex-row">
+                  <i class="fas fa-user-shield fa-3x m-2"></i>
+                  <div class="d-flex flex-column">
+                    <h3 class="m-2">Fiabilité</h3>
+                    <p class="m-2">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus et enim cursus, tempor eros id,
+                       faucibus velit. Aliquam gravida, urna nec gravida tincidunt, nibh lectus elementum nulla, sit 
+                       amet luctus dolor lacus sed orci. Ut non varius augue, ut cursus turpis.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-4">
+                <div class="d-flex flex-row">
+                  <i class="fas fa-rocket fa-3x m-2"></i>
+                  <div class="d-flex flex-column">
+                    <h3 class="m-2">Rapidité</h3>
+                    <p class="m-2">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus et enim cursus, tempor eros id,
+                       faucibus velit. Aliquam gravida, urna nec gravida tincidunt, nibh lectus elementum nulla, sit 
+                       amet luctus dolor lacus sed orci. Ut non varius augue, ut cursus turpis.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+        </div>
+      </main>
+      <footer class="footer">
+        PharmacyOnline - Copyright
+      </footer>
+    </div>
+         
+  </body>
+</html>
+
+
+      <!--entête de la page-->
+    <!-- <header>
+            <nav class="navbar navbar-expand-lg">
+                <a class="navbar-brand mr-auto" href="#" style="color:white;font-size:1.5rem">Pharmacy<span style="color:red">Online</span></a>
+                <button class="navbar-toggler navbar-light" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                
+                <div class="collapse navbar-collapse" id="navbarNav">
+                  <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                      <a class="nav-link" href="index.html">Accueil</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="connexion.html">Connexion</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="connexion.html">Nos pharmacies</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">A propos</a>
+                    </li>
+                  </ul>
+                </div>
+              </nav>
+    </header>
+
+         <!-corps principal de la page d'accueil--
+        <main>
+            <div class="container-fluid p-0">
+                <div class="site-content">
+                    <div class="d-flex justify-content-center">
+                        <div class="d-flex flex-column">
+                            <h1 class="site-title" style="color: black; font-weight: bold;font-family: 'Lobster';">Pharmacy<span style="color: red;">Online</span></h1>
+                            <p class="site-description" >Faites désormais vos opérations en pharmacie à distance</p>
+    
+                            <form class="formHome">
+                              <div class="form-group">
+                                <input type="text" class="form-control" name="nomMedicament" placeholder="Entrez le nom du médicament"></div>
+                              <div class="form-group">
+                                <input type="text" class="form-control" name="nomVille" placeholder="Entrez la ville">
+                              </div>
+                              <div class="col-sm-12 text-center">
+                                <a href="resultat.html"><button type="submit" name="bouton" class="btn btn-success">Commencez</button></a>
+                              </div>
+
+                            </form>
+                        </div>
+                    </div>  
+                </div>
+            </div>
+        </main>
+            <!- <div class="list-pharm">
+              <div class="container text-center">
+                <h2 class="titre">Les Pharmacies Représentées</h2>
+                <p class="paragraphe paragraphe1">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus et enim cursus, tempor eros id, faucibus velit. Aliquam gravida,
+                  urna nec gravida tincidunt, nibh lectus elementum nulla, sit amet luctus dolor lacus sed orci. Ut non varius augue, ut cursus turpis
+                </p>
+
+                <div class="row">
+
+                  <div class="col-md-4">
+                    <div class="card">
+                      <img src="img/5bcf62ea441e4-facade-pharmacie-cenacle-cote-ivoire.JPG" alt="image-pharmacie-1" class="card-image-top" style="border:3px solid orange;border-radius: 5%;">
+                      <div class="card-body">
+                        <h4 class="card-title">Pharmacie XXXX1</h4>
+                        <p class="card-text">
+                          Donec pellentesque sem libero, efficitur commodo leo venenatis vitae. Mauris ut sem bibendum purus malesuada interdum.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-md-4">
+                    <div class="card">
+                      <img src="img/dscf1356.jpg" alt="image-pharmacie-2" class="card-image-top" style="border:3px solid violet;border-radius: 5%;">
+                      <div class="card-body">
+                        <h4 class="card-title">Pharmacie XXXX2</h4>
+                        <p class="card-text">
+                          Donec pellentesque sem libero, efficitur commodo leo venenatis vitae. Mauris ut sem bibendum purus malesuada interdum.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+
+                   <div class="col-md-4">
+                    <div class="card">
+                      <img src="img/Pharmacie-Calavi_RDC_2-copie.jpg" alt="image-pharmacie-3" class="card-image-top" style="border:3px solid yellow;border-radius: 5%;">
+                      <div class="card-body">
+                        <h4 class="card-title">Pharmacie XXXX3</h4>
+                        <p class="card-text">
+                          Donec pellentesque sem libero, efficitur commodo leo venenatis vitae. Mauris ut sem bibendum purus malesuada interdum.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+               
+                </div>
+
+                <div class="row">
+
+                  <div class="col-md-4">
+                    <div class="card" style="">
+                      <img src="img/5b33a579e4975-facade11-pharmacie-koralie-cote-ivoire.JPG" alt="image-pharmacie-4" class="card-image-top" style="border:3px solid crimson;border-radius: 5%;">
+                      <div class="card-body">
+                        <h4 class="card-title">Pharmacie XXXX4</h4>
+                        <p class="card-text">
+                          Donec pellentesque sem libero, efficitur commodo leo venenatis vitae. Mauris ut sem bibendum purus malesuada interdum.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-md-4">
+                    <div class="card" style="">
+                      <img src="img/dscf1356.jpg" alt="image-pharmacie-5" class="card-image-top" style="border:3px solid blue;border-radius: 5%;">
+                      <div class="card-body">
+                        <h4 class="card-title">Pharmacie XXXX5</h4>
+                        <p class="card-text">
+                          Donec pellentesque sem libero, efficitur commodo leo venenatis vitae. Mauris ut sem bibendum purus malesuada interdum.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-md-4">
+                    <div class="card" style="">
+                      <img src="img/a920ab58be6cef42f429053d095f179f7e52ecbd.jpg" alt="image-pharmacie-6" class="card-image-top" style="border:3px solid green;border-radius: 5%;">
+                      <div class="card-body">
+                        <h4 class="card-title">Pharmacie XXXX6</h4>
+                        <p class="card-text">
+                          Donec pellentesque sem libero, efficitur commodo leo venenatis vitae. Mauris ut sem bibendum purus malesuada interdum.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="">
+                  <a href="#">Voir plus>></a>
+                </div>
+                
+              </div>
+            </div>
+
+            <div class="list-med">
+              <div class="container text-center">
+                <h2 class="titre">Les Meilleures Ventes</h2>
+                <p class="paragraphe paragraphe1">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus et enim cursus, tempor eros id, faucibus velit. Aliquam gravida,
+                  urna nec gravida tincidunt, nibh lectus elementum nulla, sit amet luctus dolor lacus sed orci. Ut non varius augue, ut cursus turpis
+                </p>
+
+                <div class="row justify-content-center text-center">
+
+                  <div class="col-md-4">
+                    <div class="card" style="width: 20rem; height: 20rem;">
+                      <img src="img/nivaquine.jpg" alt="image-medicament-1" class="card-image-top" style="border:3px solid orange;border-radius: 5%;">
+                      <div class="card-body">
+                        <h4 class="card-title">Medicament XXXX1</h4>
+                        <p class="card-text">
+                          Donec pellentesque sem libero, efficitur commodo leo venenatis vitae. Mauris ut sem bibendum purus malesuada interdum.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-md-4">
+                    <div class="card" style="width: 20rem; height: 20rem;">
+                      <img src="img/Un-medicament-mal-etiquete-provoque-le-syndrome-du-loup-garou-chez-des-enfants.jpg" alt="image-medicament-2" class="card-image-top" style="border:3px solid violet;border-radius: 5%;">
+                      <div class="card-body">
+                        <h4 class="card-title">Medicament XXXX2</h4>
+                        <p class="card-text">
+                          Donec pellentesque sem libero, efficitur commodo leo venenatis vitae. Mauris ut sem bibendum purus malesuada interdum.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-md-4">
+                    <div class="card" style="width: 20rem; height: 20rem;">
+                      <img src="img/cover-r4x3w1000-59e88323316a4-067-271140.jpg" alt="image-medicament-3" class="card-image-top" style="border:3px solid yellow;border-radius: 5%;">
+                      <div class="card-body">
+                        <h4 class="card-title">Medicament XXXX3</h4>
+                        <p class="card-text">
+                          Donec pellentesque sem libero, efficitur commodo leo venenatis vitae. Mauris ut sem bibendum purus malesuada interdum.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+               
+                </div>
+
+                <div class="row">
+                  <div class="col-md-4">
+                    <div class="card" style="width: 20rem; height: 20rem;">
+                      <img src="img/0602277368516-web-tete.jpg" alt="image-medicament-4" class="card-image-top" style="border:3px solid crimson;border-radius: 5%;">
+                      <div class="card-body">
+                        <h4 class="card-title">Medicament XXXX4</h4>
+                        <p class="card-text">
+                          Donec pellentesque sem libero, efficitur commodo leo venenatis vitae. Mauris ut sem bibendum purus malesuada interdum.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-md-4">
+                    <div class="card" style="width: 20rem; height: 20rem;">
+                      <img src="img/PHO45d3c2ac-dc78-11e4-b976-8d6255ab0e84-805x453.jpg" alt="image-medicament-5" class="card-image-top" style="border:3px solid blue;border-radius: 5%;">
+                      <div class="card-body">
+                        <h4 class="card-title">Medicament XXXX5</h4>
+                        <p class="card-text">
+                          Donec pellentesque sem libero, efficitur commodo leo venenatis vitae. Mauris ut sem bibendum purus malesuada interdum.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-md-4">
+                    <div class="card" style="width: 20rem; height: 20rem;">
+                      <img src="img/image_4707_400.jpg" alt="image-medicament-6" class="card-image-top" style="border:3px solid green;border-radius: 5%;">
+                      <div class="card-body">
+                        <h4 class="card-title">Medicament XXXX6</h4>
+                        <p class="card-text">
+                          Donec pellentesque sem libero, efficitur commodo leo venenatis vitae. Mauris ut sem bibendum purus malesuada interdum.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+
+                </div> 
+                <div class="">
+                  <a href="#">Voir plus>></a>
+                </div>
+                
+              </div>
+            </div>
+
+            <div class="anotherSection" style="margin-bottom: 6%;">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-4">
+                    <div class="d-flex flex-row">
+                      <i class="fas fa-thumbs-up fa-3x m-2"></i>
+                      <div class="d-flex flex-column">
+                        <h3 class="m-2">Qualité</h3>
+                        <p class="m-2">
+                          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus et enim cursus, tempor eros id,
+                           faucibus velit. Aliquam gravida, urna nec gravida tincidunt, nibh lectus elementum nulla, sit 
+                           amet luctus dolor lacus sed orci. Ut non varius augue, ut cursus turpis.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-md-4">
+                    <div class="d-flex flex-row">
+                      <i class="fas fa-user-shield fa-3x m-2"></i>
+                      <div class="d-flex flex-column">
+                        <h3 class="m-2">Fiabilité</h3>
+                        <p class="m-2">
+                          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus et enim cursus, tempor eros id,
+                           faucibus velit. Aliquam gravida, urna nec gravida tincidunt, nibh lectus elementum nulla, sit 
+                           amet luctus dolor lacus sed orci. Ut non varius augue, ut cursus turpis.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-md-4">
+                    <div class="d-flex flex-row">
+                      <i class="fas fa-rocket fa-3x m-2"></i>
+                      <div class="d-flex flex-column">
+                        <h3 class="m-2">Rapidité</h3>
+                        <p class="m-2">
+                          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus et enim cursus, tempor eros id,
+                           faucibus velit. Aliquam gravida, urna nec gravida tincidunt, nibh lectus elementum nulla, sit 
+                           amet luctus dolor lacus sed orci. Ut non varius augue, ut cursus turpis.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            </div>--
+        
+        <!-pied de notre plateforme--
+        <footer class="footer">
+          <div class="text-center">
+            <p style="margin-top: 5%;">PharmacyOnline <i class="fa fa-copyright"></i></p>
+          </div>
+            
+        </footer>
+
+    
+       
+
+        <!-Optional JavaScript 
+        <!- jQuery first, then Popper.js, then Bootstrap JS 
+        <script src="js/bootstrap.js"></script> 
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script> 
+    </div>
+  --> 
